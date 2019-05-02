@@ -82,7 +82,7 @@ The most important line is the first one. It contains:
 * The requested **resource**. Here, `/` (root symbol) indicates a request for the default document.
 * The HTTP protocol **version**, here 1.1.
 
-The other lines of text are called **header fields**. They give more information about the client request: server name (`Host`), accepted content types (`Accept`), client software details (`User-Agent`). They are many other possible header fields.
+The other lines of text are called **header fields**. They give more information about the client request: server name (`Host`), accepted content types (`Accept`), client software details (`User-Agent`). There are many other possible header fields.
 
 The main HTTP methods are `GET` to access a resource and `POST` to push some information on the server. Other ones exist, such as `HEAD`, `PUT` or `DELETE`.
 
